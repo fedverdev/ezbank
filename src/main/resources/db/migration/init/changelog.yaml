@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: added-accounts-table
+      author: verbitsky_fa
+      changes:
+        - sqlFile:
+            path: sql/create_accounts.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            encoding: UTF-8
