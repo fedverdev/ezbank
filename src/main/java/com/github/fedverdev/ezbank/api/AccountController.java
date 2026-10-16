@@ -11,10 +11,10 @@ import java.util.List;
 @RequestMapping("/api/v1")
 public class AccountController {
 
-    // POST /api/v1/account/create
     @PostMapping("/account/create")
-    public void create() {
+    public Long create() {
         // TODO: логика создания аккаунта
+        throw new RuntimeException();
     }
 
     @GetMapping("/account/")
