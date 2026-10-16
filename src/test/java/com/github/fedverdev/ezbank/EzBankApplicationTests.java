@@ -1,10 +1,8 @@
 package com.github.fedverdev.ezbank;
 
+import com.github.fedverdev.ezbank.utils.BaseTestClass;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class EzBankApplicationTests {
+class EzBankApplicationTests extends BaseTestClass {
 
 	@Test
 	void contextLoads() {
